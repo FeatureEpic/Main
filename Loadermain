@@ -1,3 +1,13 @@
 local lol = game.Players.LocalPlayer
 
-lol:Kick('Updating!)')
+lol:Kick('Updating! Copied Discord Server)')
+
+setclipboard("discord.gg/CMeJ6GeRhm")
+
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "FeatureX Notification";
+ Text = "Copied Discord Server";
+ Icon = "";
+ Duration = 5;
+ Button1 = "Okay!";
+})
